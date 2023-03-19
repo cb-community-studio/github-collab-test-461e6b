@@ -26,6 +26,7 @@ class App extends Component {
             <Provider store={store}>
                 {/* <PersistGate persistor={getPersistor()}> */}
                 <MyRouter />
+                <div> HELLO WORLD</div>
                 {/* </PersistGate> */}
             </Provider>
         );
